@@ -1,0 +1,11 @@
+# Local directory for data, plugins, and backend state
+.terraform/
+
+# Terraform State Files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.hcl
+
+# Variable files (May contain secrets)
+*.tfvars
+
